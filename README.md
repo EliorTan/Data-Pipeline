@@ -6,7 +6,7 @@ This project implements a data pipeline that fetches user data from an API, proc
 ## Installation
 
 1. Clone this repository
-2. Install the required packages:# API Data Pipeline
+2. Install the required packages
 
 ## Overview
 
