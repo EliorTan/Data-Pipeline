@@ -30,8 +30,8 @@ This project implements a robust data pipeline that fetches user data from an AP
 
 1. Clone this repository:
    ```
-   git clone "Repo URL"
-   cd data-engineer
+   git clone "https://github.com/EliorTan/Data-Pipeline.git"
+   cd Data-Pipeline
    ```
 
 
