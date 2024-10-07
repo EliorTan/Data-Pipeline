@@ -1,5 +1,13 @@
 # API Data Pipeline
 
+This project implements a data pipeline that fetches user data from an API, processes it, and saves it to a CSV file.
+
+
+## Installation
+
+1. Clone this repository
+2. Install the required packages
+
 ## Overview
 
 This project implements a robust data pipeline that fetches user data from an API, processes it, and saves it to a CSV file, S3 bucket, or SQLite database. It demonstrates best practices in Python programming, data engineering, and ETL (Extract, Transform, Load) processes.
