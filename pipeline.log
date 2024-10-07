@@ -1,0 +1,112 @@
+2024-10-07 14:36:05,752 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-07 14:36:05,752 - INFO - Starting scheduler with cron: */1 * * * *
+2024-10-07 14:36:05,755 - INFO - Added job "run_pipeline" to job store "default"
+2024-10-07 14:36:05,755 - INFO - Scheduler started
+2024-10-07 14:37:00,010 - INFO - Running job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 14:37:00 IDT)" (scheduled at 2024-10-07 14:37:00+03:00)
+2024-10-07 14:37:00,013 - INFO - Starting data pipeline with API URL: https://jsonplaceholder.typicode.com/users
+2024-10-07 14:37:00,013 - INFO - Attempting to fetch data from: https://jsonplaceholder.typicode.com/users
+2024-10-07 14:37:00,294 - INFO - Successfully fetched data. Number of records: 10
+2024-10-07 14:37:00,295 - INFO - Fetched 10 records. Processing data...
+2024-10-07 14:37:00,320 - INFO - Data saved to user_data_20241007_143700.csv
+2024-10-07 14:37:00,321 - INFO - Data pipeline completed successfully
+2024-10-07 14:37:00,321 - INFO - Job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 14:38:00 IDT)" executed successfully
+2024-10-07 14:38:00,008 - INFO - Running job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 14:39:00 IDT)" (scheduled at 2024-10-07 14:38:00+03:00)
+2024-10-07 14:38:00,010 - INFO - Starting data pipeline with API URL: https://jsonplaceholder.typicode.com/users
+2024-10-07 14:38:00,011 - INFO - Attempting to fetch data from: https://jsonplaceholder.typicode.com/users
+2024-10-07 14:38:00,275 - INFO - Successfully fetched data. Number of records: 10
+2024-10-07 14:38:00,275 - INFO - Fetched 10 records. Processing data...
+2024-10-07 14:38:00,277 - INFO - Data saved to user_data_20241007_143800.csv
+2024-10-07 14:38:00,278 - INFO - Data pipeline completed successfully
+2024-10-07 14:38:00,278 - INFO - Job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 14:39:00 IDT)" executed successfully
+2024-10-07 14:44:12,865 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-07 14:44:12,865 - INFO - Starting scheduler with cron: */1 * * * *
+2024-10-07 14:44:12,868 - INFO - Added job "run_pipeline" to job store "default"
+2024-10-07 14:44:12,868 - INFO - Scheduler started
+2024-10-07 14:45:00,008 - INFO - Running job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 14:45:00 IDT)" (scheduled at 2024-10-07 14:45:00+03:00)
+2024-10-07 14:45:00,009 - INFO - Starting data pipeline with API URL: https://jsonplaceholder.typicode.com/users
+2024-10-07 14:45:00,010 - INFO - Attempting to fetch data from: https://jsonplaceholder.typicode.com/users
+2024-10-07 14:45:00,261 - INFO - Successfully fetched data. Number of records: 10
+2024-10-07 14:45:00,262 - INFO - Fetched 10 records. Processing data...
+2024-10-07 14:45:00,267 - INFO - Data saved to user_data_20241007_144500.csv
+2024-10-07 14:45:00,267 - INFO - Data pipeline completed successfully
+2024-10-07 14:45:00,268 - INFO - Job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 14:46:00 IDT)" executed successfully
+2024-10-07 15:28:15,431 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-07 15:28:15,432 - INFO - Starting scheduler with cron: */1 * * * *
+2024-10-07 15:28:15,434 - INFO - Added job "run_pipeline" to job store "default"
+2024-10-07 15:28:15,434 - INFO - Scheduler started
+2024-10-07 15:29:00,012 - INFO - Running job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 15:29:00 IDT)" (scheduled at 2024-10-07 15:29:00+03:00)
+2024-10-07 15:29:00,013 - INFO - Starting data pipeline with API URL: https://jsonplaceholder.typicode.com/users
+2024-10-07 15:29:00,014 - INFO - Attempting to fetch data from: https://jsonplaceholder.typicode.com/users
+2024-10-07 15:29:00,256 - INFO - Successfully fetched data. Number of records: 10
+2024-10-07 15:29:00,257 - INFO - Fetched 10 records. Processing data...
+2024-10-07 15:29:00,366 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-10-07 15:29:01,877 - ERROR - Error saving data to S3: An error occurred (AccessDenied) when calling the PutObject operation: User: arn:aws:iam::872515254231:user/Elior is not authorized to perform: s3:PutObject on resource: "arn:aws:s3:::pipeline-bs/user_data_20241007_152900.csv" because no identity-based policy allows the s3:PutObject action
+2024-10-07 15:29:01,879 - INFO - Data pipeline completed successfully
+2024-10-07 15:29:01,879 - INFO - Job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 15:30:00 IDT)" executed successfully
+2024-10-07 15:30:00,004 - INFO - Running job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 15:31:00 IDT)" (scheduled at 2024-10-07 15:30:00+03:00)
+2024-10-07 15:30:00,005 - INFO - Starting data pipeline with API URL: https://jsonplaceholder.typicode.com/users
+2024-10-07 15:30:00,006 - INFO - Attempting to fetch data from: https://jsonplaceholder.typicode.com/users
+2024-10-07 15:30:00,215 - INFO - Successfully fetched data. Number of records: 10
+2024-10-07 15:30:00,216 - INFO - Fetched 10 records. Processing data...
+2024-10-07 15:30:01,401 - ERROR - Error saving data to S3: An error occurred (AccessDenied) when calling the PutObject operation: User: arn:aws:iam::872515254231:user/Elior is not authorized to perform: s3:PutObject on resource: "arn:aws:s3:::pipeline-bs/user_data_20241007_153000.csv" because no identity-based policy allows the s3:PutObject action
+2024-10-07 15:30:01,404 - INFO - Data pipeline completed successfully
+2024-10-07 15:30:01,405 - INFO - Job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 15:31:00 IDT)" executed successfully
+2024-10-07 15:32:12,763 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-07 15:32:12,764 - INFO - Starting scheduler with cron: */1 * * * *
+2024-10-07 15:32:12,765 - INFO - Added job "run_pipeline" to job store "default"
+2024-10-07 15:32:12,766 - INFO - Scheduler started
+2024-10-07 15:33:00,015 - INFO - Running job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 15:33:00 IDT)" (scheduled at 2024-10-07 15:33:00+03:00)
+2024-10-07 15:33:00,017 - INFO - Starting data pipeline with API URL: https://jsonplaceholder.typicode.com/users
+2024-10-07 15:33:00,017 - INFO - Attempting to fetch data from: https://jsonplaceholder.typicode.com/users
+2024-10-07 15:33:00,289 - INFO - Successfully fetched data. Number of records: 10
+2024-10-07 15:33:00,290 - INFO - Fetched 10 records. Processing data...
+2024-10-07 15:33:00,374 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-10-07 15:33:01,968 - INFO - Data saved to S3: user_data_20241007_153300.csv
+2024-10-07 15:33:01,970 - INFO - Data pipeline completed successfully
+2024-10-07 15:33:01,970 - INFO - Job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 15:34:00 IDT)" executed successfully
+2024-10-07 15:34:00,005 - INFO - Running job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 15:35:00 IDT)" (scheduled at 2024-10-07 15:34:00+03:00)
+2024-10-07 15:34:00,006 - INFO - Starting data pipeline with API URL: https://jsonplaceholder.typicode.com/users
+2024-10-07 15:34:00,007 - INFO - Attempting to fetch data from: https://jsonplaceholder.typicode.com/users
+2024-10-07 15:34:00,219 - INFO - Successfully fetched data. Number of records: 10
+2024-10-07 15:34:00,219 - INFO - Fetched 10 records. Processing data...
+2024-10-07 15:34:01,657 - INFO - Data saved to S3: user_data_20241007_153400.csv
+2024-10-07 15:34:01,660 - INFO - Data pipeline completed successfully
+2024-10-07 15:34:01,661 - INFO - Job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 15:35:00 IDT)" executed successfully
+2024-10-07 17:20:37,612 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-07 17:20:37,613 - INFO - Starting scheduler with cron: */1 * * * *
+2024-10-07 17:20:37,616 - INFO - Added job "run_pipeline" to job store "default"
+2024-10-07 17:20:37,617 - INFO - Scheduler started
+2024-10-07 17:21:00,014 - INFO - Running job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 17:21:00 IDT)" (scheduled at 2024-10-07 17:21:00+03:00)
+2024-10-07 17:21:00,015 - INFO - Starting data pipeline with API URL: https://jsonplaceholder.typicode.com/users
+2024-10-07 17:21:00,016 - INFO - Attempting to fetch data from: https://jsonplaceholder.typicode.com/users
+2024-10-07 17:21:00,278 - INFO - Successfully fetched data. Number of records: 10
+2024-10-07 17:21:00,279 - INFO - Fetched 10 records. Processing data...
+2024-10-07 17:21:00,304 - INFO - Data saved to database: C:\Users\David\Desktop\data-engineer\data\pipeline_data.db
+2024-10-07 17:21:00,305 - INFO - Data saved to database at: C:\Users\David\Desktop\data-engineer\data\pipeline_data.db
+2024-10-07 17:21:00,305 - INFO - Data pipeline completed successfully
+2024-10-07 17:21:00,306 - INFO - Job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 17:22:00 IDT)" executed successfully
+2024-10-07 18:31:26,227 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-07 18:31:26,228 - INFO - Starting scheduler with cron: */1 * * * *
+2024-10-07 18:31:26,232 - INFO - Added job "run_pipeline" to job store "default"
+2024-10-07 18:31:26,232 - INFO - Scheduler started
+2024-10-07 18:32:00,014 - INFO - Running job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 18:32:00 IDT)" (scheduled at 2024-10-07 18:32:00+03:00)
+2024-10-07 18:32:00,016 - INFO - Starting data pipeline with API URL: https://jsonplaceholder.typicode.com/users
+2024-10-07 18:32:00,016 - INFO - Attempting to fetch data from: https://jsonplaceholder.typicode.com/users
+2024-10-07 18:32:00,269 - INFO - Successfully fetched data. Number of records: 10
+2024-10-07 18:32:00,269 - INFO - Fetched 10 records. Processing data...
+2024-10-07 18:32:00,276 - INFO - Data saved to database: C:\Users\David\Desktop\data-engineer\data\pipeline_data.db
+2024-10-07 18:32:00,278 - INFO - Data saved to database at: C:\Users\David\Desktop\data-engineer\data\pipeline_data.db
+2024-10-07 18:32:00,278 - INFO - Data pipeline completed successfully
+2024-10-07 18:32:00,279 - INFO - Job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 18:33:00 IDT)" executed successfully
+2024-10-07 18:32:34,657 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-07 18:32:34,657 - INFO - Starting scheduler with cron: */1 * * * *
+2024-10-07 18:32:34,661 - INFO - Added job "run_pipeline" to job store "default"
+2024-10-07 18:32:34,662 - INFO - Scheduler started
+2024-10-07 18:33:00,009 - INFO - Running job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 18:33:00 IDT)" (scheduled at 2024-10-07 18:33:00+03:00)
+2024-10-07 18:33:00,011 - INFO - Starting data pipeline with API URL: https://jsonplaceholder.typicode.com/users
+2024-10-07 18:33:00,012 - INFO - Attempting to fetch data from: https://jsonplaceholder.typicode.com/users
+2024-10-07 18:33:00,307 - INFO - Successfully fetched data. Number of records: 10
+2024-10-07 18:33:00,307 - INFO - Fetched 10 records. Processing data...
+2024-10-07 18:33:00,312 - INFO - Data saved to user_data_20241007_183300.csv
+2024-10-07 18:33:00,312 - INFO - Data pipeline completed successfully
+2024-10-07 18:33:00,313 - INFO - Job "run_pipeline (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2024-10-07 18:34:00 IDT)" executed successfully

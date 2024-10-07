@@ -26,7 +26,7 @@ def main():
     scheduler.add_job(
         run_pipeline,
         CronTrigger.from_crontab(args.schedule),
-        args=[args.api_url, args.output_prefix]
+        args=[args.api_url, args.output_prefix, args.use_db, args.use_s3]
     )
     
     logger.info(f"Starting scheduler with cron: {args.schedule}")

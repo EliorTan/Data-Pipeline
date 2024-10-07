@@ -1,0 +1,20 @@
+{
+    "api": {
+        "url": "https://jsonplaceholder.typicode.com/users",
+        "timeout": 10
+    },
+    "output": {
+        "prefix": "user_data",
+        "format": "csv"
+    },
+    "schedule": "*/1 * * * *",
+    "aws": {
+        "use_s3": false,
+        "bucket_name": "pipeline-bs",
+        "region": "us-east-1"
+    },
+    "database": {
+        "use_db": false,
+        "path": "pipeline_data.db"
+    }
+}
