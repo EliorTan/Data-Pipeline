@@ -100,12 +100,12 @@ python main.py --api-url "https://jsonplaceholder.typicode.com/users" --schedule
 
 1. Build the Docker image:
    ```
-   docker build -t api-data-pipeline .
+   docker compose up --build
    ```
 
 2. Run the container:
    ```
-   docker run api-data-pipeline
+   docker compose up
    ```
 
 ## AWS S3 Integration
@@ -164,3 +164,6 @@ The pipeline logs its activities to both the console and a file named `pipeline.
 - [pandas](https://pandas.pydata.org/) for data manipulation
 - [APScheduler](https://apscheduler.readthedocs.io/) for task scheduling
 - [SQLite](https://www.sqlite.org/) for database storage
+
+## UML documentation
+![UML](UML.jpg)
